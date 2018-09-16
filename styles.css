@@ -1,6 +1,7 @@
-body {
-    background-color: white;
-    color: grey;
+body,
+html {
+    background-color: red;
+    color: black;
     font-family: sans-serif;
     text-rendering: optimizeLegibility;
     font-size: 1rem;
@@ -13,6 +14,7 @@ body {
     align-items: center;
     text-decoration: none;
     margin: 30px;
+    background-color: red;
 }
 
 #main-head {
@@ -49,7 +51,7 @@ nav {
 }
 
 li {
-    background: deepskyblue;
+    background: yellow;
     color: #232323;
     margin: auto;
     padding: 30px;
@@ -59,13 +61,14 @@ li {
 
 .article {
     margin: 2rem;
-    box-shadow: 0 0 15px #ddd;
+    box-shadow: 0 0 15px black;
     background: #fff;
     padding: 10px;
+    background-color: rgb(0, 182, 0);
 }
 
 section {
-    color: white;
+    color: rgb(209, 209, 209);
     margin: 2rem;
     background-color: rgb(4, 129, 77);
     padding: 2rem;
@@ -76,4 +79,8 @@ section img {
     border: solid 5px;
     border-color: #232323;
     border-radius: 25px;
+}
+
+h2 {
+    color: #fff;
 }
